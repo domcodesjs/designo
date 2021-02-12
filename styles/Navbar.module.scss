@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9.6rem;
+  padding: 0 2.4rem;
+
+  &__logo {
+    width: 20rem;
+  }
+
+  &__mobile-open {
+    background: none;
+    border: none;
+    outline: none;
+  }
+}

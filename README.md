@@ -1,34 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Designo Agency Website Challenge
 
-## Getting Started
+![Design preview for the Designo Agency Website Challenge coding challenge](./preview.jpg)
 
-First, run the development server:
+## Welcome! 👋
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow. These premium challenges are perfect portfolio pieces, so please do feel free to use what you build in your portfolio to show others.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**To do this challenge, you need a solid understanding of HTML and CSS and a basic understanding of JavaScript.**
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## The challenge
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Your challenge is to build out this multi-page website and get it looking as close to the design as possible.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-## Learn More
+Your users should be able to:
 
-To learn more about Next.js, take a look at the following resources:
+- View the optimal layout for each page depending on their device's screen size
+- See hover states for all interactive elements throughout the site
+- Receive an error message when the contact form is submitted if:
+  - The `Name`, `Email Address` or `Your Message` fields are empty should show "Can't be empty"
+  - The `Email Address` is not formatted correctly should show "Please use a valid email address"
+- **Bonus**: View actual locations on the locations page maps (we recommend [Leaflet JS](https://leafletjs.com/) for this)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+⚠️ **IMPORTANT** ⚠️: If you choose to do the bonus part of the challenge and use a mapping API, we recommend using [LeafletJS](https://leafletjs.com/). It's free to use and doesn't require an API Key. If you decide to use another API, like Google Maps or Mapbox, be sure to secure your API Key. Here are guides for both Google Maps and Mapbox, be sure to read through them thoroughly:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [API Key best practices from Google Developers](https://developers.google.com/maps/api-key-best-practices)
+- [How to use Mapbox securely](https://docs.mapbox.com/help/troubleshooting/how-to-use-mapbox-securely/)
 
-## Deploy on Vercel
+Exposing your API Key publicly can lead to other people using it to make requests for their own application if the proper precautions aren't in place. Please be sure you read the guides thoroughly and follow their recommendations.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Where to find everything
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Your task is to build out the project to the Figma design file provided. You can download the design file on the platform.
+
+⚠️ **IMPORTANT** ⚠️: If you're going to import this design into Figma or Adobe XD to work with, there are a few rendering issues that you should be aware of:
+
+- In Figma, the background circle patterns for the intro element on the Web Design, App Design, and Graphic Design showcase pages overflow the element. This is not what it should actually look like. The circles should be cut off and just shown as a background on the coloured area.
+
+These are just a couple of points to be aware of if you're using either of these tools to view the design.
+
+All the required assets for this project are in the `/assets` folder. The assets are already exported for the correct screen size and optimized. Some images can be re-used at multiple screen sizes. So if you don't see an image in a specific folder, it will typically be in another folder for that page.
+
+The design system in the Figma file will give you more information about the various colors, fonts, and styles used in this project.

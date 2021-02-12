@@ -1,66 +1,51 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import Image from 'next/image';
+import styles from '../styles/Home.module.scss';
 
 const Home = () => {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
-        <title>Create Next App</title>
-        <link rel='icon' href='/favicon.ico' />
+        <title>designo | Home</title>
       </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href='https://nextjs.org'>Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href='https://nextjs.org/docs' className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href='https://nextjs.org/learn' className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href='https://github.com/vercel/next.js/tree/master/examples'
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href='https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+      <main>
+        <section className={styles['hero']}>
+          <div className={styles['hero__img-circle']}></div>
+          <div className={styles['hero__content']}>
+            <h1 className={styles['hero__content__title']}>
+              Award-winning custom designs and digital branding solutions
+            </h1>
+            <p className={styles['hero__content__text']}>
+              With over 10 years in the industry, we are experienced in creating
+              fully responsive websites, app design, and engaging brand
+              experiences. Find out more about our services.
             </p>
-          </a>
-        </div>
+            <button className={styles['hero__content__btn']}>Learn more</button>
+          </div>
+          <img
+            src='/static/home/desktop/image-hero-phone.png'
+            className={styles['hero__img-phone']}
+          />
+        </section>
+        <p>
+          Web Design View Projects App Design View Projects Graphic Design View
+          Projects Passionate Each project starts with an in-depth brand
+          research to ensure we only create products that serve a purpose. We
+          merge art, design, and technology into exciting new solutions.
+          Resourceful Everything that we do has a strategic purpose. We use an
+          agile approach in all of our projects and value customer
+          collaboration. It guarantees superior results that fulfill our
+          clients’ needs. Friendly We are a group of enthusiastic folks who know
+          how to put people first. Our success depends on our customers, and we
+          strive to give them the best experience a company can provide. Let’s
+          talk about your project Ready to take it to the next level? Contact us
+          today and find out how our expertise can help your business grow. Get
+          in touch Our company Locations Contact Designo Central Office 3886
+          Wellington Street Toronto, Ontario M9C 3J5 Contact Us (Central Office)
+          P : +1 253-863-8967 M : contact@designo.co
+        </p>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Powered by{' '}
-          <img src='/vercel.svg' alt='Vercel Logo' className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+    </>
   );
 };
 
