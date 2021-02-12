@@ -5,7 +5,7 @@ const WebDesign = () => {
   return (
     <>
       <Head>
-        <title>designo | Home</title>
+        <title>designo | Web Design</title>
       </Head>
       <main>
         <p>Sup</p>
