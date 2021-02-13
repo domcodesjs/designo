@@ -58,3 +58,60 @@
     margin: -6.4rem;
   }
 }
+
+.projects {
+  display: grid;
+  margin-top: 12rem;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 2.4rem;
+  color: gray;
+  padding: 0 2.4rem;
+
+  &__item {
+    height: 25rem;
+    color: $color-white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+
+    h2 {
+      font-size: 2.8rem;
+      text-transform: uppercase;
+      letter-spacing: 1.4px;
+    }
+
+    a {
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 5px;
+      margin-top: 0.8rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        margin-left: 1.6rem;
+      }
+    }
+
+    &__web {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('/static/home/mobile/image-web-design.jpg') no-repeat center;
+      background-size: cover;
+    }
+
+    &__app {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('/static/home/mobile/image-app-design.jpg');
+      background-size: cover;
+    }
+
+    &__graphic {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('/static/home/mobile/image-graphic-design.jpg');
+      background-size: cover;
+    }
+  }
+}
